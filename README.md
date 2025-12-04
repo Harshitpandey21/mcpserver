@@ -9,10 +9,15 @@ The MCP server can be accessed through:
 
 * ✔ Any MCP-compatible LLM client
 
-#| Component        | Description                                          |
- | ---------------- | ---------------------------------------------------- |
- | MCP Server       | Built using `fastmcp`, exposes the `get_alerts` tool |
- | Weather Tool     | Fetches active alerts from the official NWS API      |
- | Streamlit Client | Interactive chat UI powered by `MCPAgent`            |
- | Memory Support   | Agent remembers previous conversation context        |
- | API Safety       | Fully async with timeout + error handling            |
+# Project Structure
+```
+mcpserver/
+├── server/
+│   ├── weather.py          # MCP server (FastMCP + NWS tool)
+│   ├── weather.json        # MCP config file
+│   └── app.py              # Streamlit chat UI
+│   └── client.py           # Local IDE chat server
+├── requirements.txt
+└── README.md
+
+```
