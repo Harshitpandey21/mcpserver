@@ -1,5 +1,5 @@
 langchain-openai
 langchain-groq
 streamlit
-mcp[cli]
+"mcp[cli]"
 mcp-use
