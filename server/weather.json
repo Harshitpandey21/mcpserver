@@ -1,0 +1,16 @@
+{
+    "mcpServers": {
+        "weather": {
+            "command": "/Library/Frameworks/Python.framework/Versions/3.10/bin/uv",
+            "args": [
+              "run",
+              "--frozen",
+              "--with",
+              "mcp[cli]",
+              "mcp",
+              "run",
+              "/Users/harshitpandey/mcpserver/server/weather.py"
+            ]
+          }
+    }   
+} 
