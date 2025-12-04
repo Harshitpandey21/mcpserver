@@ -21,3 +21,39 @@ mcpserver/
 └── README.md
 
 ```
+# Installation
+
+1. Clone the repository
+  ```
+  git clone https://github.com/Harshitpandey21/mcpserver.git
+  cd mcpserver
+  ```
+
+2. Install dependencies
+ ```
+  pip install -r requirements.txt
+  ```
+
+4. Set OpenAI API KEY
+ ```
+ OPENAI_API_KEY = "YOUR_KEY_HERE"
+ ```
+   
+# Running the MCP Server Locally
+  The MCP server is defined in weather.py.
+  
+  To start the server:
+  ```
+  uv run mcp dev server/weather.py
+  ```
+# Using from a Local IDE / Terminal Client
+  To start the server:
+  ```
+  uv run server/client.py
+  ```
+# Running the Streamlit Chat UI
+  To start the server:
+  ```
+  streamlit run server/app.py
+  ```
+
