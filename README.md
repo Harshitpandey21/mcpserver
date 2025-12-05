@@ -56,4 +56,12 @@ mcpserver/
   ```
   streamlit run server/app.py
   ```
+# requirements.txt
+```
+langchain-openai
+langchain-groq
+streamlit
+"mcp[cli]"
+mcp-use
+```
 
